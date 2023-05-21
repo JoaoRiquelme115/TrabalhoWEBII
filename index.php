@@ -17,10 +17,10 @@
     </header>
 
     <div class="menu">
-        <img src="imagens/saude.png" alt="saúde">
-        <img src="imagens/carro.png" alt="carro">
-        <img src="imagens/eventos.png" alt="eventos">
-        <img src="imagens/aula.png" alt="aula">
+        <a href="detalhe.php"><img src="imagens/saude.png" alt="saúde"></a>
+        <a href="detalhe.php"><img src="imagens/carro.png" alt="carro"></a>
+        <a href="detalhe.php"><img src="imagens/eventos.png" alt="eventos"></a>
+        <a href="detalhe.php"><img src="imagens/aula.png" alt="aula"></a>
     </div>
 
     <div class="titulo">
