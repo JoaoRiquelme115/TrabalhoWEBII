@@ -8,6 +8,12 @@
     <link href="estilo.css" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <img src="imagens/logoCS.png" alt="Logo do site">
+        <div>
+            <button class="botao1">Como funciona</button>
+            <button class="botao2">Seja um Profissional</button>
+        </div>
+    </header>
 </body>
 </html>

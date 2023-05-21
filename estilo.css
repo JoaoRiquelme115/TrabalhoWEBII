@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*---------TOPO-----------*/
+
+header {
+    padding: 0 10%;
+    width: 100%;
+    max-width: 1920px;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 150px;
+}
+
+header div{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao1,.botao2{
+    background-color: white;
+    color:rgb(19, 88, 60);
+    width: 45%;
+    font-weight: bolder;
+	padding: 10px;
+	font-size: 16px;
+	cursor: pointer;
+    border-radius: 30px;
+}
+
+.botao1 {
+    border: none;
+}
+
+.botao2 {
+    border: 2px solid rgb(19, 88, 60);
+}
