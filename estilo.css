@@ -28,7 +28,7 @@ header img{
 }
 
 header div{
-    width: 320px;
+    width: 340px;
     display: flex;
     justify-content: space-between;
 }
@@ -36,12 +36,18 @@ header div{
 .botao1,.botao2{
     background-color: white;
     color:rgb(21, 105, 71);
-    width: 200px;
+    width: 150px;
     font-weight: bolder;
 	padding: 10px;
 	font-size: 16px;
 	cursor: pointer;
     border-radius: 30px;
+}
+
+.botao1:hover,.botao2:hover{
+    transition: 350ms;
+    background-color: rgb(21, 105, 71);
+    color: white;
 }
 
 .botao1 {
@@ -120,7 +126,7 @@ form {
 
 input {
     background-color: rgb(21, 105, 71);
-    width: 250px;
+    width: 300px;
     border: none;
 }
 
@@ -129,4 +135,11 @@ input {
     font-size: 16px;
     font-weight: bolder;
 }
+
+text:focus, input:focus, select:focus {
+    color: white;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
 
