@@ -1,3 +1,7 @@
+<?php
+    require "dados.php";
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -34,6 +38,27 @@
             <input type="search" name="busca" placeholder="Digite aqui sua pesquisa">
             <button>Buscar</button>
         </form>
+    </div>
+
+    <div class="listaGeral">
+        <div class="tituloLista">
+            <h1>Lista de Serviços</h1>
+        </div>
+        <?php
+            foreach($servicos as $i => $serv){
+                echo "<h1 class='categoria'>{$i}</h1>";
+                foreach($serv as $area){
+        ?>
+        <div class="card">
+            <a href="detalhe.php?i=<?=$i?>">
+			    <img src="<?=$area["foto"]?>" alt="<?=$area["nome"]?>">
+            </a>
+			<h3><a href="detalhe.php?i=<?=$i?>"><?=$area["nome"]?></a></h3>
+        </div>
+        <?php
+                }
+            }
+        ?>
     </div>
 </body>
 </html>

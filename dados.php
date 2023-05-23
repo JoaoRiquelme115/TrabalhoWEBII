@@ -1,91 +1,131 @@
-<!--Todos os dados dos serviços do site, arrays-->
+<!--Todos os dados dos serviços do site, array-->
 <?php
 $servicos = [
     "Saúde" => [
         [
             "nome" => "Nutricionista",
-            "foto" => "",
+            "foto" => "imagens/nutricionista.jpg",
             "descricao" => ""
         ],
         [
             "nome" => "Quiropraxia",
-            "foto" => "",
+            "foto" => "imagens/quiropraxia.jpeg",
             "descricao" => ""
         ],
         [
             "nome" => "Dentista",
-            "foto" => "",
+            "foto" => "imagens/dentista.jpg",
             "descricao" => ""
         ],
         [
-            "nome" => "Pscologia",
-            "foto" => "",
+            "nome" => "Psicólogo",
+            "foto" => "imagens/psicologo.jpg",
+            "descricao" => ""
+        ],
+        [
+            "nome" => "Psicólogo",
+            "foto" => "imagens/psicologo.jpg",
+            "descricao" => ""
+        ],
+        [
+            "nome" => "Psicólogo",
+            "foto" => "imagens/psicologo.jpg",
             "descricao" => ""
         ]
     ],
     "Autos" => [
         [
             "nome" => "Borracharia",
-            "foto" => "",
+            "foto" => "imagens/borracharia.jpg",
             "descricao" => ""
         ],
         [
             "nome" => "Mêcanica",
-            "foto" => "",
+            "foto" => "imagens/mecanica.png",
             "descricao" => ""
         ],
         [
             "nome" => "Pintura",
-            "foto" => "",
+            "foto" => "imagens/pintura.jpg",
             "descricao" => ""
         ],
         [
             "nome" => "Guincho",
-            "foto" => "",
+            "foto" => "imagens/guincho.jpg",
+            "descricao" => ""
+        ],
+        [
+            "nome" => "Guincho",
+            "foto" => "imagens/guincho.jpg",
+            "descricao" => ""
+        ],
+        [
+            "nome" => "Guincho",
+            "foto" => "imagens/guincho.jpg",
             "descricao" => ""
         ]
     ],
     "Eventos" => [
         [
             "nome" => "Fotografia",
-            "foto" => "",
+            "foto" => "imagens/fotografia.jpg",
             "descricao" => ""
         ],
         [
             "nome" => "Decoração",
-            "foto" => "",
+            "foto" => "imagens/decoracao.jpeg",
             "descricao" => ""
         ],
         [
             "nome" => "Segurança",
-            "foto" => "",
+            "foto" => "imagens/seguranca.jpg",
             "descricao" => ""
         ],
         [
             "nome" => "Recepcionista",
-            "foto" => "",
+            "foto" => "imagens/recepcionista.jpg",
+            "descricao" => ""
+        ],
+        [
+            "nome" => "Recepcionista",
+            "foto" => "imagens/recepcionista.jpg",
+            "descricao" => ""
+        ],
+        [
+            "nome" => "Recepcionista",
+            "foto" => "imagens/recepcionista.jpg",
             "descricao" => ""
         ]
     ],
-    "Aula" => [
+    "Aulas" => [
         [
             "nome" => "Informática",
-            "foto" => "",
+            "foto" => "imagens/informatica.jpg",
             "descricao" => ""
         ],
         [
             "nome" => "Idiomas",
-            "foto" => "",
+            "foto" => "imagens/idiomas.jpg",
             "descricao" => ""
         ],
         [
             "nome" => "Pré-Vestibular",
-            "foto" => "",
+            "foto" => "imagens/pre-vestibular.jpg",
             "descricao" => ""
         ],
         [
             "nome" => "Reforço",
-            "foto" => "",
+            "foto" => "imagens/reforco.jpg",
+            "descricao" => ""
+        ],
+        [
+            "nome" => "Reforço",
+            "foto" => "imagens/reforco.jpg",
+            "descricao" => ""
+        ],
+        [
+            "nome" => "Reforço",
+            "foto" => "imagens/reforco.jpg",
             "descricao" => ""
         ]
     ]
