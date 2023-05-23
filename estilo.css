@@ -93,12 +93,13 @@ header div{
 }
 
 .titulo h1{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     width: 50%;
+    font-size: 2rem;
 }
 
 .titulo p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .busca {
@@ -133,7 +134,7 @@ form {
 
 input {
     background-color: rgb(21, 105, 71);
-    width: 300px;
+    width: 255px;
     border: none;
 }
 
@@ -201,5 +202,13 @@ text:focus, input:focus, select:focus {
 
 .card a:hover {
     color:rgb(21, 105, 71);
+}
+
+@media (max-width: 760px) {
+	.titulo {
+		display: flex;
+        justify-content: space-between;
+        column-gap: 50px;
+	}
 }
 
