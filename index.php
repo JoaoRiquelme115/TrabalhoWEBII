@@ -49,7 +49,7 @@
             <h1>Lista de Serviços</h1>
         </div>
 
-        <h1 class='categoria'>SAÚDE</h1>
+        <h1 class='categoria'>SERVIÇOS DE SAÚDE</h1>
         <?php
             foreach($servicos as $i => $serv){
                 if($serv["area"] == "Saude"){
@@ -65,7 +65,7 @@
             }
         ?>
 
-        <h1 class='categoria'>AUTOS</h1>
+        <h1 class='categoria'>SERVIÇOS PARA AUTOMÓVEIS</h1>
         <?php
             foreach($servicos as $i => $serv){
                 if($serv["area"] == "Autos"){
@@ -81,7 +81,7 @@
             }
         ?>
 
-        <h1 class='categoria'>EVENTOS</h1>
+        <h1 class='categoria'>SERVIÇOS PARA EVENTOS</h1>
         <?php
             foreach($servicos as $i => $serv){
                 if($serv["area"] == "Eventos"){
@@ -97,7 +97,7 @@
             }
         ?>
 
-        <h1 class='categoria'>AULAS</h1>
+        <h1 class='categoria'>SERVIÇOS DE ENSINO</h1>
         <?php
             foreach($servicos as $i => $serv){
                 if($serv["area"] == "Aulas"){

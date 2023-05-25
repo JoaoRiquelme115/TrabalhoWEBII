@@ -172,9 +172,10 @@ text:focus, input:focus, select:focus {
 }
 
 .card-detalhe {
-    width: 450px;
+    width: 500px;
     margin-top: 20vh;
     margin-bottom: 10px;
+    row-gap: 10px;
 }
 
 

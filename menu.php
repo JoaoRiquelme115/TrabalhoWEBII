@@ -26,7 +26,7 @@
     </header>
 
     <div class="listaGeral">
-        <h1 class="categoria"><?=$categoria?></h1>
+        <h1 class="categoria">Serviços de <?=$categoria?></h1>
         <?php
             foreach($servicos as $i => $serv){
                 if($serv["area"] == $categoria){
