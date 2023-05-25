@@ -68,7 +68,7 @@
         <h1 class='categoria'>AUTOS</h1>
         <?php
             foreach($servicos as $i => $serv){
-                if($serv["area"] == "Auto"){
+                if($serv["area"] == "Autos"){
         ?>
         <div class="card">
             <a href="detalhe.php?i=<?=$i?>">
@@ -84,7 +84,7 @@
         <h1 class='categoria'>EVENTOS</h1>
         <?php
             foreach($servicos as $i => $serv){
-                if($serv["area"] == "Evento"){
+                if($serv["area"] == "Eventos"){
         ?>
         <div class="card">
             <a href="detalhe.php?i=<?=$i?>">
@@ -100,7 +100,7 @@
         <h1 class='categoria'>AULAS</h1>
         <?php
             foreach($servicos as $i => $serv){
-                if($serv["area"] == "Aula"){
+                if($serv["area"] == "Aulas"){
         ?>
         <div class="card">
             <a href="detalhe.php?i=<?=$i?>">
