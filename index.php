@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <img src="imagens/logoCS.png" alt="Logo do site">
+        <a href="index.php"><img src="imagens/logoCS.png" alt="Logo do site"></a>
         <div>
             <button class="botao1">Como funciona</button>
             <button class="botao2">Seja um Profissional</button>
@@ -21,10 +21,14 @@
     </header>
 
     <div class="menu">
-        <a href="detalhe.php"><img src="imagens/saude.png" alt="saúde"></a>
-        <a href="detalhe.php"><img src="imagens/carro.png" alt="carro"></a>
-        <a href="detalhe.php"><img src="imagens/eventos.png" alt="eventos"></a>
-        <a href="detalhe.php"><img src="imagens/aula.png" alt="aula"></a>
+        <a href="detalhe.php?Saude"><img src="imagens/saude.png" alt="saúde">
+        <h3>Saúde</h3></a>
+        <a href="detalhe.php?Autos"><img src="imagens/carro.png" alt="carro">
+        <h3>Autos</h3></a>
+        <a href="detalhe.php?Eventos"><img src="imagens/eventos.png" alt="eventos">
+        <h3>Eventos</h3></a>
+        <a href="detalhe.php?Aulas"><img src="imagens/aula.png" alt="aula">
+        <h3>Aulas</h3></a>
     </div>
 
     <div class="titulo">
@@ -44,16 +48,65 @@
         <div class="tituloLista">
             <h1>Lista de Serviços</h1>
         </div>
+
+        <h1 class='categoria'>SAÚDE</h1>
         <?php
             foreach($servicos as $i => $serv){
-                echo "<h1 class='categoria'>{$i}</h1>";
-                foreach($serv as $area){
+                if($i < 6){
         ?>
         <div class="card">
             <a href="detalhe.php?i=<?=$i?>">
-			    <img src="<?=$area["foto"]?>" alt="<?=$area["nome"]?>">
+			    <img src="<?=$serv["foto"]?>" alt="<?=$serv["nome"]?>">
+                <h3><?=$serv["nome"]?></h3>
             </a>
-			<h3><a href="detalhe.php?i=<?=$i?>"><?=$area["nome"]?></a></h3>
+        </div>
+        <?php
+                }
+            }
+        ?>
+
+        <h1 class='categoria'>AUTOS</h1>
+        <?php
+            foreach($servicos as $i => $serv){
+                if($i >= 6 && $i < 12){
+        ?>
+        <div class="card">
+            <a href="detalhe.php?i=<?=$i?>">
+			    <img src="<?=$serv["foto"]?>" alt="<?=$serv["nome"]?>">
+                <h3><?=$serv["nome"]?></h3>
+            </a>
+        </div>
+        <?php
+                }
+            }
+        ?>
+
+        <h1 class='categoria'>EVENTOS</h1>
+        <?php
+            foreach($servicos as $i => $serv){
+                if($i >= 12 && $i < 18){
+        ?>
+        <div class="card">
+            <a href="detalhe.php?i=<?=$i?>">
+			    <img src="<?=$serv["foto"]?>" alt="<?=$serv["nome"]?>">
+                <h3><?=$serv["nome"]?></h3>
+            </a>
+        </div>
+        <?php
+                }
+            }
+        ?>
+
+        <h1 class='categoria'>AULAS</h1>
+        <?php
+            foreach($servicos as $i => $serv){
+                if($i >= 18 && $i < 24){
+        ?>
+        <div class="card">
+            <a href="detalhe.php?i=<?=$i?>">
+			    <img src="<?=$serv["foto"]?>" alt="<?=$serv["nome"]?>">
+                <h3><?=$serv["nome"]?></h3>
+            </a>
         </div>
         <?php
                 }

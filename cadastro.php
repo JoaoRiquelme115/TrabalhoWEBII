@@ -11,8 +11,7 @@
 
         <header>
             <nav id="menu">
-           
-            <img src="https://github.com/JoaoRiquelme115/TrabalhoWEBII/blob/main/imagens/logoCS.png?raw=true" alt="Logo do site">
+            <a href="index.php"><img src="https://github.com/JoaoRiquelme115/TrabalhoWEBII/blob/main/imagens/logoCS.png?raw=true" alt="Logo do site"></a>
             <div>
                 <button class="botao1">Como funciona</button>
                 <button class="botao2">Seja um Profissional</button>

@@ -1,16 +1,17 @@
 <!--Todos os dados dos serviços do site, array-->
 <?php
-$servicos = [
-    "Saúde" => [
+    $servicos = [
         [
             "nome" => "Nutricionista",
             "foto" => "imagens/nutricionista.jpg",
-            "descricao" => ""
+            "descricao" => "Atendimento com um(a) profissional especializada em nutrição",
+            "valor" => "150"
         ],
         [
             "nome" => "Quiropraxia",
             "foto" => "imagens/quiropraxia.jpeg",
-            "descricao" => ""
+            "descricao" => "A Quiropraxia é um método na área da saúde que trata e previne problemas do sistema neuro-músculo-esquelético, ou seja, articulações, músculos, nervos e tendões",
+            "valor" => "290"
         ],
         [
             "nome" => "Dentista",
@@ -31,9 +32,9 @@ $servicos = [
             "nome" => "Psicólogo",
             "foto" => "imagens/psicologo.jpg",
             "descricao" => ""
-        ]
-    ],
-    "Autos" => [
+        ],
+
+
         [
             "nome" => "Borracharia",
             "foto" => "imagens/borracharia.jpg",
@@ -63,9 +64,10 @@ $servicos = [
             "nome" => "Guincho",
             "foto" => "imagens/guincho.jpg",
             "descricao" => ""
-        ]
-    ],
-    "Eventos" => [
+        ],
+
+
+
         [
             "nome" => "Fotografia",
             "foto" => "imagens/fotografia.jpg",
@@ -95,9 +97,10 @@ $servicos = [
             "nome" => "Recepcionista",
             "foto" => "imagens/recepcionista.jpg",
             "descricao" => ""
-        ]
-    ],
-    "Aulas" => [
+        ],
+
+
+
         [
             "nome" => "Informática",
             "foto" => "imagens/informatica.jpg",
@@ -128,6 +131,6 @@ $servicos = [
             "foto" => "imagens/reforco.jpg",
             "descricao" => ""
         ]
-    ]
-];
+
+    ];
 ?>
