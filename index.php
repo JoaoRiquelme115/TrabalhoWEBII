@@ -21,13 +21,13 @@
     </header>
 
     <div class="menu">
-        <a href="detalhe.php?Saude"><img src="imagens/saude.png" alt="saúde">
+        <a href="menu.php?i=Saude"><img src="imagens/saude.png" alt="saúde">
         <h3>Saúde</h3></a>
-        <a href="detalhe.php?Autos"><img src="imagens/carro.png" alt="carro">
+        <a href="menu.php?i=Autos"><img src="imagens/carro.png" alt="carro">
         <h3>Autos</h3></a>
-        <a href="detalhe.php?Eventos"><img src="imagens/eventos.png" alt="eventos">
+        <a href="menu.php?i=Eventos"><img src="imagens/eventos.png" alt="eventos">
         <h3>Eventos</h3></a>
-        <a href="detalhe.php?Aulas"><img src="imagens/aula.png" alt="aula">
+        <a href="menu.php?i=Aulas"><img src="imagens/aula.png" alt="aula">
         <h3>Aulas</h3></a>
     </div>
 
@@ -52,7 +52,7 @@
         <h1 class='categoria'>SAÚDE</h1>
         <?php
             foreach($servicos as $i => $serv){
-                if($i < 6){
+                if($serv["area"] == "Saude"){
         ?>
         <div class="card">
             <a href="detalhe.php?i=<?=$i?>">
@@ -68,7 +68,7 @@
         <h1 class='categoria'>AUTOS</h1>
         <?php
             foreach($servicos as $i => $serv){
-                if($i >= 6 && $i < 12){
+                if($serv["area"] == "Auto"){
         ?>
         <div class="card">
             <a href="detalhe.php?i=<?=$i?>">
@@ -84,7 +84,7 @@
         <h1 class='categoria'>EVENTOS</h1>
         <?php
             foreach($servicos as $i => $serv){
-                if($i >= 12 && $i < 18){
+                if($serv["area"] == "Evento"){
         ?>
         <div class="card">
             <a href="detalhe.php?i=<?=$i?>">
@@ -100,7 +100,7 @@
         <h1 class='categoria'>AULAS</h1>
         <?php
             foreach($servicos as $i => $serv){
-                if($i >= 18 && $i < 24){
+                if($serv["area"] == "Aula"){
         ?>
         <div class="card">
             <a href="detalhe.php?i=<?=$i?>">
