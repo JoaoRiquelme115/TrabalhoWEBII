@@ -1,3 +1,4 @@
+<!--Página com os detalhes do(s) serviço(s) escolhido(s) através do menu-->
 <?php
     require "dados.php";
     if(!isset($_GET["i"])){
