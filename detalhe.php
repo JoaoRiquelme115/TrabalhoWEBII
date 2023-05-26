@@ -35,7 +35,7 @@
         ?>
 		<img src="<?=$s['foto']?>">
 		<h3><?=$s["nome"]?></h3>
-        <h3>Valor mensal: R$ <?=$s["valor"]?>,00</h3>
+        <h3>Valor: R$ <?=$s["valor"]?>,00</h3>
         <p><strong>Descrição:</strong> <?=$s["descricao"]?></p>
         <?php
             }else{
