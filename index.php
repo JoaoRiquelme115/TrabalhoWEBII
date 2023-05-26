@@ -17,8 +17,8 @@ require "dados.php";
     <header>
         <a href="index.php"><img src="imagens/logoCS.png" alt="Logo do site"></a>
         <div>
-            <button class="botao1">Como funciona</button>
-            <button class="botao2">Seja um Profissional</button>
+            <a href="comofunciona.php"><button class="botao1">Como funciona</button></a>
+            <a href="cadastro.php"><button class="botao2">Seja um Profissional</button></a>
         </div>
     </header>
 
