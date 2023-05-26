@@ -7,7 +7,6 @@
             "descricao" => "Prestar assistência nutricional a indivíduos e coletividades (sadios e enfermos): organizar, administrar e avaliar unidades de alimentação e nutrição",
             "valor" => "150",
             "disponivel" => "30",
-            
             "area" => "Saude"
         ],
         [
@@ -192,7 +191,7 @@
             "descricao" => "Planejar e monitorar a presença contínua da empresa nas mídias sociais. Lançar anúncios on-line otimizados para aumentar a conscientização sobre a empresa e a marca.",
             "valor" => "290",
             "disponivel" => "17",
-            "area" => "200"
+            "area" => "Aulas"
         ],
         [
             "nome" => "Música",

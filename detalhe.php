@@ -44,6 +44,6 @@
             }
         ?>
     </div>
-    <a href="index.php"><button class="botao1">Voltar</button></a>
+    <a href="index.php"><button class="botao1">Voltar</button></a> <br><br>
 </body>
 </html>
