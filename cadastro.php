@@ -82,8 +82,79 @@
                 </div>
             </form>
         </main>
+            <!-- rodapé-->
+    <footer class="footer">
+  <div class="footer__addr">
+    <h1 class="footer__logo"></h1>
+        
+    <h2>Atendimento ao cliente</h2>
+    
+    <address>
+      (77) 40028922<br>
+           <a class="footer__btn" href=""> suportecsgroup@gmail.com.br
+</a>
+    </address>
+  </div>
+  
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">  Media</h2>
 
-        <footer>
-        </footer>
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Em todas as redes sociais</a>
+        </li>
+        <li>
+          <a href="#">@Csgroup_Brasil</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav_item nav_item--extra">
+      <h2 class="nav__title">Website Designer by</h2>
+      <ul class="nav_ul nav_ul--extra">
+             <li>
+              <p>Elayne</p>
+           </li>
+          <li>
+             <p>João Riquelme</p>
+          </li>
+          <li>
+            <p>Ludmylla</p>
+          </li>
+          <li>
+            <p>Rayka</p>
+
+        </li>
+      </ul>
+    </li>
+      
+    
+    </li>
+    
+    <li class="nav__item">
+      <h2 class="nav__title">Legal</h2>
+      
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Politica de Privacidade</a>
+        </li>
+        
+        <li>
+          <a href="#">Termos de uso</a>
+        </li>
+        
+      </ul>
+    </li>
+  </ul>
+  
+  <div class="legal">
+    <p>&copy; 2022  All rights reserved.</p>
+    
+    <div class="legal__links">
+      <span>Made with <span class="heart">♥
+    </div>
+  </div>
+</footer>
     </body>
 </html>
