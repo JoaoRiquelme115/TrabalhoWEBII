@@ -119,8 +119,7 @@ require "dados.php";
         }
         ?>
     </div>
-
-    <footer class="footer">
+ <footer class="footer">
         <div class="footer__addr">
             <h1 class="footer__logo"></h1>
             <h2>Atendimento ao cliente</h2>
@@ -170,3 +169,4 @@ require "dados.php";
 </body>
 
 </html>
+   
