@@ -224,6 +224,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
 header img{
     width: 150px;
 }
@@ -277,6 +278,7 @@ main{
     justify-content: center;
     align-items: center;
 }
+
 #contato{ /*caixa do cadastro*/
     width: 55vh;
     height: 70vh;

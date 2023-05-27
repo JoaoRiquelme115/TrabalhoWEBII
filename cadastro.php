@@ -10,13 +10,11 @@
     <body>
 
         <header>
-            <nav id="menu">
-            <a href="index.php"><img src="https://github.com/JoaoRiquelme115/TrabalhoWEBII/blob/main/imagens/logoCS.png?raw=true" alt="Logo do site"></a>
+            <a href="index.php"><img src="imagens/logoCS.png" alt="Logo do site"></a>
             <div>
               <a href="index.php"><button class="botao1">Página inicial</button></a>
               <a href="comofunciona.php"><button class="botao2">Como funciona</button></a>
             </div>
-            </nav>
         </header>
 
         <main><!--CONTEÚDO DA PÁGINA-->
@@ -76,7 +74,7 @@
                             </select>
                         </label>
                         <div>
-                            <button class="botao3">REGISTRE-SE</button>
+                            <a href="index.php"><button class="botao3">REGISTRE-SE</button></a>
                         </div>
                     </div>
                 </div>
@@ -91,8 +89,7 @@
     
     <address>
       (77) 40028922<br>
-           <a class="footer__btn" href=""> suportecsgroup@gmail.com.br
-</a>
+           <a class="footer__btn" href=""> suportecsgroup@gmail.com.br</a>
     </address>
   </div>
   

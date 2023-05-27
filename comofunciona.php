@@ -5,28 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="estilo2.css" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
 </head>
 <header>
-        <img src="imagens/Cs3.png" alt="Logo do site">
+        <a href="index.php"><img src="imagens/logoCS.png" alt="Logo do site"></a>
         <div>
-            
-            <button class="botao1"><a href="index.php">Pagina inicial</a></button>
-            <button class="botao2"><a href="profissionais.php">Seja um Profissional</a></button>
+            <a href="index.php"><button class="botao1">Pagina inicial</button></a>
+            <a href="cadastro.php"><button class="botao2">Seja um Profissional</button></a>
         </div>
     </header>
 <div class="menu">
-        <a href="detalhe.php"><img src="imagens/saude.png" alt="saúde"></a>
-        <a href="detalhe.php"><img src="imagens/carro.png" alt="carro"></a>
-        <a href="detalhe.php"><img src="imagens/eventos.png" alt="eventos"></a>
-        <a href="detalhe.php"><img src="imagens/aula.png" alt="aula"></a>
+      <a href="menu.php?i=Saude"><img src="imagens/saude.png" alt="saúde">
+        <h3>Saúde</h3>
+      </a>
+      <a href="menu.php?i=Autos"><img src="imagens/carro.png" alt="carro">
+        <h3>Autos</h3>
+      </a>
+      <a href="menu.php?i=Eventos"><img src="imagens/eventos.png" alt="eventos">
+        <h3>Eventos</h3>
+      </a>
+      <a href="menu.php?i=Aulas"><img src="imagens/aula.png" alt="aula">
+        <h3>Aulas</h3>
+      </a>
     </div>
 <body>
 <div class="titulo2"><h1>O que é o Cs group?</h1>
 <h3>Cs group é a maior plataforma de contratação de serviços do Brasil. Conectamos Profissionais de todo o Brasil com pessoas solicitando serviço, atendendo com qualidade, facilidade e rapidez todos os tipos de necessidade.</h3>
 </div>
 
-<img src="imagens/CS2.png" alt="Logo do site">
+<img src="imagens/CS3.jpg" alt="Logo do site">
 
 
 <div class="titulo2"><h1>Como funciona?</h1>
@@ -41,7 +48,7 @@
 </h3>
 </div>
 
-<img src="imagens/trabalhador2.png" alt="Imagem de um trabalhador">
+<img src="imagens/trabalhador2.jpg" alt="Imagem de um trabalhador">
 
 
 <footer class="footer"><!--footer-marca a área inferior, normalmente conhecida como rodapé-->
