@@ -19,7 +19,7 @@
 </head>
 <body>
     <header>
-        <a href="index.php"><img src="imagens/logoCS.png" alt="Logo do site"></a>
+        <a href="index.php"><img src="imagens/cs3.png" alt="Logo do site"></a>
         <div>
             <a href="comofunciona.php"><button class="botao1">Como funciona</button></a>
             <a href="cadastro.php"><button class="botao2">Seja um Profissional</button></a>

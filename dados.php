@@ -71,7 +71,7 @@
             "nome" => "Pintura",
             "foto" => "imagens/pintura.jpg",
             "descricao" => "Pintura sólida, pintura metálica e pintura perolizada. Remoção da pintura, lixamento e nivelamento inicial, mascaramento, tinta e verniz, e micro pintura",
-            "valor" => "100 a 1250",
+            "valor" => "100,00 a 1250",
             "disponivel" => "29",
             "area" => "Autos"
         ],
@@ -95,7 +95,7 @@
             "nome" => "Higienização e polimento",
             "foto" => "imagens/higienizacao.jpg",
             "descricao" => "Atua com lavagem e secagem de veículos, aplicação de produtos, higienização e polimento dos mesmos",
-            "valor" => "150 a 300",
+            "valor" => "150,00 a 300",
             "disponivel" => "10",
             "area" => "Autos"
         ],
@@ -114,7 +114,7 @@
             "nome" => "Decoração",
             "foto" => "imagens/decoracao.jpeg",
             "descricao" => "Serviço artístico, estético, design de interiores com planejamento e funcionalidade",
-            "valor" => "250 a 2000",
+            "valor" => "250,00 a 2000",
             "disponivel" => "28",
             "area" => "Eventos"
         ],
@@ -146,7 +146,7 @@
             "nome" => "Confeiteira",
             "foto" => "imagens/confeiteiro.jpg",
             "descricao" => "Preparo de receitas de bolos, doces, biscoitos, salgados, canapés, sorvetes, caldas, tortas, cupcakes, etc. Em escala industrial, comercial ou caseira",
-            "valor" => "75 a 350",
+            "valor" => "75,00 a 350",
             "disponivel" => "20",
             "area" => "Eventos"
         ],

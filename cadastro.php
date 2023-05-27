@@ -10,7 +10,7 @@
     <body>
 
         <header>
-            <a href="index.php"><img src="imagens/logoCS.png" alt="Logo do site"></a>
+            <a href="index.php"><img src="imagens/cs3.png" alt="Logo do site"></a>
             <div>
               <a href="index.php"><button class="botao1">Página inicial</button></a>
               <a href="comofunciona.php"><button class="botao2">Como funciona</button></a>

@@ -8,7 +8,7 @@
     <link href="estilo.css" rel="stylesheet">
 </head>
 <header>
-        <a href="index.php"><img src="imagens/logoCS.png" alt="Logo do site"></a>
+        <a href="index.php"><img src="imagens/cs3.png" alt="Logo do site"></a>
         <div>
             <a href="index.php"><button class="botao1">Pagina inicial</button></a>
             <a href="cadastro.php"><button class="botao2">Seja um Profissional</button></a>
@@ -33,7 +33,7 @@
 <h3>Cs group é a maior plataforma de contratação de serviços do Brasil. Conectamos Profissionais de todo o Brasil com pessoas solicitando serviço, atendendo com qualidade, facilidade e rapidez todos os tipos de necessidade.</h3>
 </div>
 
-<img src="imagens/CS3.jpg" alt="Logo do site">
+<img src="imagens/CS2.jpg" alt="Logo do site">
 
 
 <div class="titulo2"><h1>Como funciona?</h1>

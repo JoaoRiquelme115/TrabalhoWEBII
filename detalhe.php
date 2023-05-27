@@ -22,7 +22,7 @@
 </head>
 <body>
     <header>
-        <a href="index.php"><img src="imagens/logoCS.png" alt="Logo do site"></a>
+        <a href="index.php"><img src="imagens/cs3.png" alt="Logo do site"></a>
         <div>
             <a href="comofunciona.php"><button class="botao1">Como funciona</button>
             <a href="cadastro.php"><button class="botao2">Seja um Profissional</button>
@@ -44,7 +44,7 @@
             }
         ?>
     </div>
-    <a href="index.php"><button class="botao1">Voltar</button></a> <br><br>
+    <a href="index.php"><button class="botao1">Voltar</button></a> <br><br><br>
 
     <footer class="footer">
         <div class="footer__addr">
