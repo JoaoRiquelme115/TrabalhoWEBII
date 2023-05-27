@@ -13,8 +13,8 @@
             <nav id="menu">
             <a href="index.php"><img src="https://github.com/JoaoRiquelme115/TrabalhoWEBII/blob/main/imagens/logoCS.png?raw=true" alt="Logo do site"></a>
             <div>
-                <button class="botao1">Como funciona</button>
-                <button class="botao2">Seja um Profissional</button>
+              <a href="index.php"><button class="botao1">Página inicial</button></a>
+              <a href="comofunciona.php"><button class="botao2">Como funciona</button></a>
             </div>
             </nav>
         </header>
