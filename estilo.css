@@ -17,7 +17,6 @@ header div{
     width: 340px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .botao1,.botao2{
@@ -216,7 +215,6 @@ header{
     background-color:#F0FFFF;
     width: 100%;
 	position: fixed;
-	top:0;
     padding: 0 10%;
     max-width: 1920px;
     height: 15vh;

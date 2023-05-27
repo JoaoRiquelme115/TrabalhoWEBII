@@ -34,7 +34,7 @@
             if(isset($s)){
         ?>
 		<img src="<?=$s['foto']?>">
-		<h3><?=$s["nome"]?></h3>
+		<h2><?=$s["nome"]?></h2>
         <h3>Valor: R$ <?=$s["valor"]?>,00</h3>
         <h3>Profissionais disponíveis: <?=$s["disponivel"]?></h3>
         <p><strong>Descrição:</strong> <?=$s["descricao"]?></p>
